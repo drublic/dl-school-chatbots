@@ -1,0 +1,620 @@
+{
+  "Amateure": [
+    {
+      "name": "12. Herforder Frühjahrspreis",
+      "weekday": "Sonntag",
+      "date": "15.03.",
+      "startTime": null,
+      "meldeSchluss": "08.03.",
+      "cancelled": false,
+      "riders": [
+        "Jonas B.",
+        "Tim R."
+      ]
+    },
+    {
+      "name": "POCO Opening Weekend - Werne Frühjahrs Cup",
+      "weekday": "Samstag",
+      "date": "21.03.",
+      "startTime": null,
+      "meldeSchluss": "16.03.",
+      "cancelled": false,
+      "riders": [
+        "Paul W."
+      ]
+    },
+    {
+      "name": "POCO Opening Weekend - Olfener Frühjahrs Cup",
+      "weekday": "Sonntag",
+      "date": "22.03.",
+      "startTime": null,
+      "meldeSchluss": "16.03.",
+      "cancelled": false,
+      "riders": [
+        "Erik S."
+      ]
+    },
+    {
+      "name": "Rund um Merken",
+      "weekday": "Sonntag",
+      "date": "29.03.",
+      "startTime": "13:40",
+      "meldeSchluss": "25.03.",
+      "cancelled": false,
+      "riders": [
+        "Jonas B.",
+        "Tim R.",
+        "Paul W.",
+        "Alex M.",
+        "Erik S.",
+        "Max H."
+      ]
+    },
+    {
+      "name": "Großer Osterpreis Bad Neuenahr - Ahrweiler",
+      "weekday": "Montag",
+      "date": "06.04.",
+      "startTime": null,
+      "meldeSchluss": "03.04.",
+      "cancelled": false,
+      "riders": [
+        "Jonas B.",
+        "Paul W.",
+        "Max H."
+      ]
+    },
+    {
+      "name": "Offene Bergmeisterschaft NRW",
+      "weekday": "Montag",
+      "date": "06.04.",
+      "startTime": null,
+      "meldeSchluss": "28.03.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund in Fischeln",
+      "weekday": "Sonntag",
+      "date": "26.04.",
+      "startTime": null,
+      "meldeSchluss": "24.04.",
+      "cancelled": false,
+      "riders": [
+        "Jonas B.",
+        "Tim R.",
+        "Alex M.",
+        "Erik S.",
+        "Paul W."
+      ]
+    },
+    {
+      "name": "Großer Preis der Sparkasse Neuss",
+      "weekday": "Freitag",
+      "date": "01.05.",
+      "startTime": null,
+      "meldeSchluss": "26.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "LV-Meisterschaft Straße / NRW",
+      "weekday": "Sonntag",
+      "date": "03.05.",
+      "startTime": null,
+      "meldeSchluss": "29.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "LV-Meisterschaft NRW - Einzelzeitfahren",
+      "weekday": "Sonntag",
+      "date": "10.05.",
+      "startTime": null,
+      "meldeSchluss": "03.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "75. Rund in Refrath",
+      "weekday": "Donnerstag",
+      "date": "14.05.",
+      "startTime": "13:20",
+      "meldeSchluss": "10.05.",
+      "cancelled": false,
+      "riders": [
+        "Jonas B.",
+        "Tim R.",
+        "Alex M.",
+        "Max H."
+      ]
+    },
+    {
+      "name": "108. Rund um Köln",
+      "weekday": "Sonntag",
+      "date": "17.05.",
+      "startTime": null,
+      "meldeSchluss": "01.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "72. Volksbank Giro (1. Tag)",
+      "weekday": "Sonntag",
+      "date": "24.05.",
+      "startTime": null,
+      "meldeSchluss": "17.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "72. Volksbank Giro (2. Tag)",
+      "weekday": "Montag",
+      "date": "25.05.",
+      "startTime": null,
+      "meldeSchluss": "17.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "32. City Nacht von Gelsenkirchen",
+      "weekday": "Mittwoch",
+      "date": "03.06.",
+      "startTime": null,
+      "meldeSchluss": "31.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Offene Westfalen- und Regionenmeisterschaften 2026",
+      "weekday": "Donnerstag",
+      "date": "04.06.",
+      "startTime": null,
+      "meldeSchluss": "31.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "39. Steinfurter Abendrennen",
+      "weekday": "Samstag",
+      "date": "06.06.",
+      "startTime": null,
+      "meldeSchluss": "01.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Aachener Bank Rennen Rund um Dom und Rathaus",
+      "weekday": "Sonntag",
+      "date": "07.06.",
+      "startTime": null,
+      "meldeSchluss": "04.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund um die Marktallee",
+      "weekday": "Samstag",
+      "date": "13.06.",
+      "startTime": null,
+      "meldeSchluss": "07.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund in Rheinbach — cancelled",
+      "weekday": "Sonntag",
+      "date": "28.06.",
+      "startTime": null,
+      "meldeSchluss": null,
+      "cancelled": true,
+      "riders": []
+    },
+    {
+      "name": "Brunnenfestival - Rennen Lünen",
+      "weekday": "Freitag",
+      "date": "10.07.",
+      "startTime": null,
+      "meldeSchluss": "06.07.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund um die Kö (Düsseldorf)",
+      "weekday": "Sonntag",
+      "date": "09.08.",
+      "startTime": null,
+      "meldeSchluss": null,
+      "cancelled": false,
+      "riders": [
+        "Jonas B.",
+        "Paul W.",
+        "Erik S.",
+        "Max H."
+      ]
+    },
+    {
+      "name": "Poller Wiesen Crit Köln",
+      "weekday": "Sonntag",
+      "date": "20.09.",
+      "startTime": null,
+      "meldeSchluss": null,
+      "cancelled": false,
+      "riders": [
+        "Jonas B.",
+        "Tim R.",
+        "Alex M.",
+        "Paul W.",
+        "Erik S."
+      ]
+    }
+  ],
+  "Elite-Amateure": [
+    {
+      "name": "12. Herforder Frühjahrspreis",
+      "weekday": "Sonntag",
+      "date": "15.03.",
+      "startTime": null,
+      "meldeSchluss": "08.03.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "POCO Opening Weekend - Werne Frühjahrs Cup",
+      "weekday": "Samstag",
+      "date": "21.03.",
+      "startTime": null,
+      "meldeSchluss": "16.03.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "POCO Opening Weekend - Olfener Frühjahrs Cup",
+      "weekday": "Sonntag",
+      "date": "22.03.",
+      "startTime": null,
+      "meldeSchluss": "16.03.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund um Merken",
+      "weekday": "Sonntag",
+      "date": "29.03.",
+      "startTime": null,
+      "meldeSchluss": "25.03.",
+      "cancelled": false,
+      "riders": [
+        "Alex M."
+      ]
+    },
+    {
+      "name": "Großer Osterpreis Bad Neuenahr - Ahrweiler",
+      "weekday": "Montag",
+      "date": "06.04.",
+      "startTime": null,
+      "meldeSchluss": "03.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Offene Bergmeisterschaft NRW",
+      "weekday": "Montag",
+      "date": "06.04.",
+      "startTime": null,
+      "meldeSchluss": "28.03.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund in Fischeln",
+      "weekday": "Sonntag",
+      "date": "26.04.",
+      "startTime": null,
+      "meldeSchluss": "24.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Großer Preis der Sparkasse Neuss",
+      "weekday": "Freitag",
+      "date": "01.05.",
+      "startTime": null,
+      "meldeSchluss": "26.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "75. Rund in Refrath",
+      "weekday": "Donnerstag",
+      "date": "14.05.",
+      "startTime": null,
+      "meldeSchluss": "10.05.",
+      "cancelled": false,
+      "riders": [
+        "Alex M.",
+        "Ben F."
+      ]
+    },
+    {
+      "name": "72. Volksbank Giro (1. Tag)",
+      "weekday": "Sonntag",
+      "date": "24.05.",
+      "startTime": null,
+      "meldeSchluss": "17.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "72. Volksbank Giro (2. Tag)",
+      "weekday": "Montag",
+      "date": "25.05.",
+      "startTime": null,
+      "meldeSchluss": "17.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "32. City Nacht von Gelsenkirchen",
+      "weekday": "Mittwoch",
+      "date": "03.06.",
+      "startTime": null,
+      "meldeSchluss": "31.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Offene Westfalen- und Regionenmeisterschaften 2026",
+      "weekday": "Donnerstag",
+      "date": "04.06.",
+      "startTime": null,
+      "meldeSchluss": "31.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "39. Steinfurter Abendrennen",
+      "weekday": "Samstag",
+      "date": "06.06.",
+      "startTime": null,
+      "meldeSchluss": "01.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Aachener Bank Rennen Rund um Dom und Rathaus",
+      "weekday": "Sonntag",
+      "date": "07.06.",
+      "startTime": null,
+      "meldeSchluss": "04.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund um die Marktallee",
+      "weekday": "Samstag",
+      "date": "13.06.",
+      "startTime": null,
+      "meldeSchluss": "07.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund um die Kö (Düsseldorf)",
+      "weekday": "Sonntag",
+      "date": "09.08.",
+      "startTime": null,
+      "meldeSchluss": null,
+      "cancelled": false,
+      "riders": []
+    }
+  ],
+  "Frauen": [
+    {
+      "name": "12. Herforder Frühjahrspreis",
+      "weekday": "Sonntag",
+      "date": "15.03.",
+      "startTime": null,
+      "meldeSchluss": "08.03.",
+      "cancelled": false,
+      "riders": [
+        "Lea K.",
+        "Mira S."
+      ]
+    },
+    {
+      "name": "POCO Opening Weekend - Werne Frühjahrs Cup",
+      "weekday": "Samstag",
+      "date": "21.03.",
+      "startTime": null,
+      "meldeSchluss": "16.03.",
+      "cancelled": false,
+      "riders": [
+        "Nora H."
+      ]
+    },
+    {
+      "name": "POCO Opening Weekend - Olfener Frühjahrs Cup",
+      "weekday": "Sonntag",
+      "date": "22.03.",
+      "startTime": null,
+      "meldeSchluss": "16.03.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund um Merken",
+      "weekday": "Sonntag",
+      "date": "29.03.",
+      "startTime": "13:20",
+      "meldeSchluss": "25.03.",
+      "cancelled": false,
+      "riders": [
+        "Lea K.",
+        "Mira S.",
+        "Nora H.",
+        "Sara W."
+      ]
+    },
+    {
+      "name": "Großer Osterpreis Bad Neuenahr - Ahrweiler",
+      "weekday": "Montag",
+      "date": "06.04.",
+      "startTime": null,
+      "meldeSchluss": "03.04.",
+      "cancelled": false,
+      "riders": [
+        "Lea K.",
+        "Nora H.",
+        "Anna P."
+      ]
+    },
+    {
+      "name": "Offene Bergmeisterschaft NRW",
+      "weekday": "Montag",
+      "date": "06.04.",
+      "startTime": null,
+      "meldeSchluss": "28.03.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund in Fischeln",
+      "weekday": "Sonntag",
+      "date": "26.04.",
+      "startTime": null,
+      "meldeSchluss": "24.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Großer Preis der Sparkasse Neuss",
+      "weekday": "Freitag",
+      "date": "01.05.",
+      "startTime": null,
+      "meldeSchluss": "26.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "LV-Meisterschaft Straße / NRW",
+      "weekday": "Sonntag",
+      "date": "03.05.",
+      "startTime": null,
+      "meldeSchluss": "29.04.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "LV-Meisterschaft NRW - Einzelzeitfahren",
+      "weekday": "Sonntag",
+      "date": "10.05.",
+      "startTime": null,
+      "meldeSchluss": "03.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "75. Rund in Refrath",
+      "weekday": "Donnerstag",
+      "date": "14.05.",
+      "startTime": "12:40",
+      "meldeSchluss": "10.05.",
+      "cancelled": false,
+      "riders": [
+        "Lea K.",
+        "Mira S.",
+        "Sara W."
+      ]
+    },
+    {
+      "name": "72. Volksbank Giro (1. Tag)",
+      "weekday": "Sonntag",
+      "date": "24.05.",
+      "startTime": null,
+      "meldeSchluss": "17.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "72. Volksbank Giro (2. Tag)",
+      "weekday": "Montag",
+      "date": "25.05.",
+      "startTime": null,
+      "meldeSchluss": "17.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "32. City Nacht von Gelsenkirchen",
+      "weekday": "Mittwoch",
+      "date": "03.06.",
+      "startTime": null,
+      "meldeSchluss": "31.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Offene Westfalen- und Regionenmeisterschaften 2026",
+      "weekday": "Donnerstag",
+      "date": "04.06.",
+      "startTime": null,
+      "meldeSchluss": "31.05.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Aachener Bank Rennen Rund um Dom und Rathaus",
+      "weekday": "Sonntag",
+      "date": "07.06.",
+      "startTime": null,
+      "meldeSchluss": "04.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund um die Marktallee",
+      "weekday": "Samstag",
+      "date": "13.06.",
+      "startTime": null,
+      "meldeSchluss": "07.06.",
+      "cancelled": false,
+      "riders": []
+    },
+    {
+      "name": "Rund in Rheinbach (Frauen) — cancelled",
+      "weekday": "Sonntag",
+      "date": "28.06.",
+      "startTime": null,
+      "meldeSchluss": null,
+      "cancelled": true,
+      "riders": []
+    },
+    {
+      "name": "Rund um die Kö Düsseldorf (Frauen)",
+      "weekday": "Sonntag",
+      "date": "09.08.",
+      "startTime": null,
+      "meldeSchluss": null,
+      "cancelled": false,
+      "riders": [
+        "Lea K.",
+        "Nora H.",
+        "Mira S.",
+        "Anna P."
+      ]
+    },
+    {
+      "name": "Poller Wiesen Crit Köln (Frauen)",
+      "weekday": "Sonntag",
+      "date": "20.09.",
+      "startTime": null,
+      "meldeSchluss": null,
+      "cancelled": false,
+      "riders": [
+        "Mira S.",
+        "Sara W.",
+        "Anna P."
+      ]
+    }
+  ]
+}

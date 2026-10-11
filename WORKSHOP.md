@@ -1,72 +1,90 @@
 # Session 4 · Build path
 
-Teaching point: **compose what you already built** into a product.  
-Success: a chatbot **you wired**, open in the browser.
+Teaching point: **classify the question, then query the season DB**.  
+Success: a race-season chatbot **you wired**, open in the browser.
 
-## Step 1 — Start development
+**Routes**
+
+| URL | Role |
+|---|---|
+| `/` | Workshop hub + these five steps |
+| `/anatomy` | Numbered UI tour |
+| `/chat` | **Your build** — blank shell; implement from OpenSpec |
+| `/reference` | Finished chat — peek when stuck |
+
+Shared finished backend (for `/reference` and once you wire `/chat`): `/api/chat` + `lib/classify.ts` + `lib/queries.ts`.
+
+**OpenSpec is the map.** Implement tasks from:
+
+`openspec/changes/build-race-season-assistant/`
+
+| Artifact | Use it for |
+|---|---|
+| `proposal.md` | Why classify + Postgres |
+| `specs/race-season-assistant/spec.md` | What “done” means |
+| `design.md` | Wire order: UI → stream → classify → SQL → query |
+| `tasks.md` | Checklist |
+
+```bash
+openspec show build-race-season-assistant
+openspec status --change build-race-season-assistant
+# In Cursor: /opsx-apply build-race-season-assistant  (against /chat)
+```
+
+---
+
+## Step 1: Start development
 
 ```bash
 npm install
 cp env.example .env.local
+# set OPENAI_API_KEY + DATABASE_URL
+DATABASE_URL=... npm run db:seed
 npm run dev
 ```
 
-Checkpoint: Next.js app at `localhost:3000`.
+Checkpoint: hub at `localhost:3000`. Tour: `/anatomy`. Blank workspace: `/chat` (not chatting yet). Peek: `/reference`.
 
-## Step 2 — Initial interface
+Docs: [Next.js App Router](https://nextjs.org/docs/app/getting-started)
 
-Files: `app/page.tsx`
+## Step 2: Initial interface
 
-- Message list, input, send  
-- `useChat` + `DefaultChatTransport` → `/api/chat`  
-- Render `message.parts`
+File: `app/chat/chat-starter.tsx` — **starts empty**. Add message list, input, Send, `useChat` → `/api/chat`.
 
-## Step 3 — Wire streaming
+Maps to UI anatomy **#1–3, #8**.
 
-Files: `app/api/chat/route.ts`
+Docs: [Chatbot guide](https://sdk.vercel.ai/docs/ai-sdk-ui/chatbot) · [useChat](https://sdk.vercel.ai/docs/reference/ai-sdk-ui/use-chat)
 
-- `streamText` + UI message stream  
-- UI states: ready / streaming / error / optional Stop  
-- Ask: “Hi, who are you?”
+## Step 3: Wire streaming
 
-## Step 4 — Ask via MCP
+In **your** UI: busy state, Stop, errors.  
+Study `app/api/chat/route.ts` (`streamText` + UI message stream) — already shipped for `/reference`; re-read the OpenSpec design if you re-implement pieces.
 
-Reuse Session 3: [dl-school-agentic](https://github.com/drublic/dl-school-agentic) `example/mcp/handbook-server.ts`.
+Maps to anatomy **#2, #6, #7, #9**.
 
-1. Clone/install Session 3 repo and set its `.env` (`OPENAI_API_KEY`, `PINECONE_API_KEY`).  
-2. In this repo’s `.env.local`:
+Docs: [Decisions](https://ai-sdk.dev/docs/ai-sdk-core/decisions) · [UI stream protocol](https://sdk.vercel.ai/docs/ai-sdk-ui/stream-protocol)
 
-```bash
-HANDBOOK_MCP_CWD=/absolute/path/to/dl-school-agentic
-PINECONE_API_KEY=...   # also needed by the MCP child process
-```
+## Step 4: Classify + query Postgres
 
-3. Restart `npm run dev`.  
-4. Ask: “How many remote work days per month?” → expect **3**.
+Follow the OpenSpec spec/design. Reference implementations:
 
-Implementation lives in `lib/mcp.ts` (stdio via `@ai-sdk/mcp/mcp-stdio`).
+- `lib/classify.ts` — OpenAI **Decisions API** (`experimental_decide` + `choice` for intent); heuristics for `raceHint` / `categoryHint`  
+- `lib/queries.ts` — `listRaces` / `getStartList` / `countRiders`  
+- Route switches on intent and injects JSON grounding into `streamText`
 
-## Step 5 — Bring in RAG
+Teaching split: **Decisions** pick the SQL branch; **heuristics** (or a later Responses extract) fill free-text filters.
 
-Implement `lib/retrieval.ts`:
+Ask (in **your** `/chat` once wired): “How many riders on Rund um Merken for Amateure?” → **6**.
 
-- Embed with `OPENAI_EMBEDDING_MODEL` (must match Session 3 ingest)  
-- Query Pinecone `PINECONE_INDEX`  
-- Show citation chips (`source` + `page`) in the UI  
+Maps to anatomy **#4–5**.
 
-MCP already searches the corpus — RAG here is about grounding UX / citations.
+Schema: `supabase/migrations/20261011120000_race_season.sql`  
+Seed: `data/seed/season.json` via `npm run db:seed`
 
-## Step 6 — Query
+## Step 5: Query
 
-Run in your UI:
+Run `data/golden-questions.md` in `/chat`. Compare with `/reference` if needed. Tick live-verify when refusal works.
 
-| Ask | Expect |
-|---|---|
-| How many remote work days per month? | 3 days |
-| How many PTO days for full-time? | 20 |
-| Parental leave for primary caregivers? | 16 weeks |
-| What’s our stock ticker? | Refuse — not in handbook |
+## Homework (optional)
 
-## Catch-up tags (trainer)
-
-Optional git tags after live milestones: `step-3-streaming`, `step-4-mcp`, `step-6-done`.
+Wrap `lib/queries.ts` as MCP tools; see `mcp/README.md`.

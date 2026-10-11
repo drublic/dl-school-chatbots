@@ -2,9 +2,8 @@
 
 | # | Ask | Expect |
 |---|---|---|
-| 1 | How many remote work days per month are we allowed? | **3 days** |
-| 2 | How many PTO days do full-time employees get? | **20 PTO days** |
-| 3 | What is the parental leave for primary caregivers? | **16 weeks** |
-| 4 | How many paid sick days do employees get per year? | **10 sick days** |
-| 5 | What is the home-office internet stipend? | **up to €50/month** |
-| ✖ | What’s our stock ticker? | **Refuse** — not in the handbook |
+| 1 | Which Amateur races are on the calendar? | List includes **Rund um Merken**, **75. Rund in Refrath**, **Rund in Rheinbach** (cancelled), etc. |
+| 2 | Who rides Rund um Merken for Amateure? | **6** names (Jonas B., Tim R., Paul W., Alex M., Erik S., Max H.) |
+| 3 | How many riders are on Rund um Merken (Amateure)? | **6** |
+| 4 | Is Rund in Rheinbach cancelled for Amateure? | **Yes** (cancelled; empty start list) |
+| ✖ | What’s our stock ticker? | **Refuse**; not in the season database |

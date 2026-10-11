@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Northstar Handbook Assistant · DL School",
+  title: "Race Season Assistant · DL School",
   description:
-    "Session 4 companion — compose MCP, streaming, and RAG into a chatbot.",
+    "Session 4 companion; Decisions API classify + Postgres race-season chatbot.",
 };
 
 export default function RootLayout({
@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full bg-white" style={{ colorScheme: "light" }}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-full antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} h-full bg-white text-zinc-900 antialiased`}
       >
         {children}
       </body>

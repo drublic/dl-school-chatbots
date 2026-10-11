@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
+/* Dark utilities only apply with an explicit .dark ancestor — never OS preference. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
+  color-scheme: light;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -12,15 +16,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Workshop UI is light-only (hardcoded zinc/white in components). */
+html {
+  color-scheme: light;
+  background: #ffffff;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: #171717;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

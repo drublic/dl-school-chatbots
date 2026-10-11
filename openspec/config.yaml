@@ -1,0 +1,7 @@
+schema: spec-driven
+
+context: |
+  Product: Race Season Assistant; attendees classify questions with OpenAI structured output, then query shared Postgres season data (from raceplanner). MCP wrapping is optional homework.
+  Stack: Next.js App Router, AI SDK (`ai`, `@ai-sdk/openai`, `@ai-sdk/react`), Zod, Postgres (`postgres` + DATABASE_URL / Supabase).
+  Companion: https://github.com/drublic/dl-school-chatbots
+  Related prior: raceplanner MVP (SQLite calendar / start lists); Session 3 MCP lab remains optional depth.

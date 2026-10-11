@@ -2,23 +2,24 @@
   "name": "dl-school-chatbots",
   "version": "0.1.0",
   "private": true,
-  "description": "DL School Session 4 companion — Northstar Handbook Assistant chatbot",
+  "description": "DL School Session 4 companion; Race Season Assistant chatbot",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:seed": "tsx scripts/seed-season.ts"
   },
   "dependencies": {
-    "@ai-sdk/mcp": "^2.0.73",
     "@ai-sdk/openai": "^4.0.91",
     "@ai-sdk/react": "^4.0.140",
-    "@pinecone-database/pinecone": "^9.0.0",
     "ai": "^7.0.137",
     "next": "16.4.0",
+    "postgres": "^3.4.9",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "tsx": "^4.23.15",
     "zod": "^4.6.5"
   },
   "devDependencies": {
